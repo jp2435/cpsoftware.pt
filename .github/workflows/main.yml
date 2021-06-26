@@ -20,4 +20,3 @@ jobs:
         server-dir: htdocs/
         exclude:
           - README.md
-          - LICENSE

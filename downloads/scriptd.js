@@ -1,158 +1,181 @@
-  function abrirMenu(){
-    document.getElementById("menuOculto").style.width="250px"
-    document.getElementById("principal").style.marginLeft="250px"
-  }
-  function fecharMenu(){
-    document.getElementById("menuOculto").style.width="0"
-    document.getElementById("principal").style.marginLeft="0"
-  }
-  function quimicaBtn(){
-    var pontos = document.getElementById("pontosquimica")
-    var maisTexto = document.getElementById("maisquimica")
-    var btnalterar = document.getElementById("btnquimica")
-
-    if(pontos.style.display === "none"){
-        pontos.style.display = "inline"
-        maisTexto.style.display = "none"
-        btnalterar.innerHTML = "Ler mais"
-    }else{
-        pontos.style.display = "none"
-        maisTexto.style.display = "inline"
-        btnalterar.innerHTML = "Ocultar"
-    }
+function abrirMenu(){
+  document.getElementById("menuOculto").style.width="250px"
+  document.getElementById("principal").style.marginLeft="250px"
 }
-  function fisicaBtn(){
-    var pontos = document.getElementById("pontosfisica")
-    var maisTexto = document.getElementById("maisfisica")
-    var btnalterar = document.getElementById("btnfisica")
+function fecharMenu(){
+  document.getElementById("menuOculto").style.width="0"
+  document.getElementById("principal").style.marginLeft="0"
+}
+function quimicaBtn(){
+  var pontos = document.getElementById("pontosquimica")
+  var maisTexto = document.getElementById("maisquimica")
+  var btnalterar = document.getElementById("btnquimica")
 
-    if(pontos.style.display == "none"){
+  if(pontos.style.display === "none"){
       pontos.style.display = "inline"
       maisTexto.style.display = "none"
       btnalterar.innerHTML = "Ler mais"
-    }else{
+  }else{
       pontos.style.display = "none"
       maisTexto.style.display = "inline"
       btnalterar.innerHTML = "Ocultar"
-    }
   }
-  function cnvrsaoBtn(){
-    var pontos = document.getElementById("pontoscnvrsao")
-    var maisTexto = document.getElementById("maiscnvrsao")
-    var btnalterar = document.getElementById("btncnvrsao")
+}
+function fisicaBtn(){
+  var pontos = document.getElementById("pontosfisica")
+  var maisTexto = document.getElementById("maisfisica")
+  var btnalterar = document.getElementById("btnfisica")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
-  function tabBtn(){
-    var pontos = document.getElementById("pontostab")
-    var maisTexto = document.getElementById("maistab")
-    var btnalterar = document.getElementById("btntab")
+}
+function cnvrsaoBtn(){
+  var pontos = document.getElementById("pontoscnvrsao")
+  var maisTexto = document.getElementById("maiscnvrsao")
+  var btnalterar = document.getElementById("btncnvrsao")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
-  function retaperpBtn(){
-    var pontos = document.getElementById("pontosrtperp")
-    var maisTexto = document.getElementById("maisrtperp")
-    var btnalterar = document.getElementById("btnretaperp")
+}
+function tabBtn(){
+  var pontos = document.getElementById("pontostab")
+  var maisTexto = document.getElementById("maistab")
+  var btnalterar = document.getElementById("btntab")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
-  function normaveBtn(){
-    var pontos = document.getElementById("pontosnormave")
-    var maisTexto = document.getElementById("maisnormave")
-    var btnalterar = document.getElementById("btnnormave")
+}
+function retaperpBtn(){
+  var pontos = document.getElementById("pontosrtperp")
+  var maisTexto = document.getElementById("maisrtperp")
+  var btnalterar = document.getElementById("btnretaperp")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
-  function normavepBtn(){
-    var pontos = document.getElementById("pontosnormavep")
-    var maisTexto = document.getElementById("maisnormavep")
-    var btnalterar = document.getElementById("btnnormavep")
+}
+function normaveBtn(){
+  var pontos = document.getElementById("pontosnormave")
+  var maisTexto = document.getElementById("maisnormave")
+  var btnalterar = document.getElementById("btnnormave")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
-  function vetorBtn(){
-    var pontos = document.getElementById("pontosvetor")
-    var maisTexto = document.getElementById("maisvetor")
-    var btnalterar = document.getElementById("btnvetor")
+}
+function normavepBtn(){
+  var pontos = document.getElementById("pontosnormavep")
+  var maisTexto = document.getElementById("maisnormavep")
+  var btnalterar = document.getElementById("btnnormavep")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
-  function esferaBtn(){
-    var pontos = document.getElementById("pontosesfera")
-    var maisTexto = document.getElementById("maisesfera")
-    var btnalterar = document.getElementById("btnesfera")
+}
+function vetorBtn(){
+  var pontos = document.getElementById("pontosvetor")
+  var maisTexto = document.getElementById("maisvetor")
+  var btnalterar = document.getElementById("btnvetor")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
-  function darkBtn(){
-    var pontos = document.getElementById("pontosdark")
-    var maisTexto = document.getElementById("maisdark")
-    var btnalterar = document.getElementById("btndark")
+}
+function esferaBtn(){
+  var pontos = document.getElementById("pontosesfera")
+  var maisTexto = document.getElementById("maisesfera")
+  var btnalterar = document.getElementById("btnesfera")
 
-    if(pontos.style.display == "none"){
-      pontos.style.display = "inline"
-      maisTexto.style.display = "none"
-      btnalterar.innerHTML = "Ler mais"
-    }else{
-      pontos.style.display = "none"
-      maisTexto.style.display = "inline"
-      btnalterar.innerHTML = "Ocultar"
-    }
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
   }
+}
+function darkBtn(){
+  var pontos = document.getElementById("pontosdark")
+  var maisTexto = document.getElementById("maisdark")
+  var btnalterar = document.getElementById("btndark")
+
+  if(pontos.style.display == "none"){
+    pontos.style.display = "inline"
+    maisTexto.style.display = "none"
+    btnalterar.innerHTML = "Ler mais"
+  }else{
+    pontos.style.display = "none"
+    maisTexto.style.display = "inline"
+    btnalterar.innerHTML = "Ocultar"
+  }
+}
+
+const sectionFlexContent = document.querySelector('[section-content]')
+function criarDivs(){
+  const divIndividual = document.createElement('div')
+  const h4 = document.createElement('h4')
+  const image = new Image()
+  const version = document.createElement('p')
+  const description = document.createElement('p')
+
+  h4.innerHTML = 'Prgm teste'
+  image.src='../imagens/prgm/quimica320.png'
+  version.innerHTML = 'Versão 1.4'
+  description.innerHTML='Programa de desenvolvimento pra testar renderizaçãõ'
+  
+  divIndividual.append(h4)
+  divIndividual.append(image)
+  divIndividual.append(version)
+  divIndividual.append(description)
+
+
+  sectionFlexContent.append(divIndividual)
+}
+criarDivs()

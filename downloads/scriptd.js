@@ -1,4 +1,19 @@
-  function abrirMenu(){
+const programData ={}
+
+async function fetchData(){
+  try{
+    let response = await fetch('https://api.github.com/users/CPSoftwareC/repos', {method: 'GET'})
+    let data = await response.json()
+    const repos = data.filter(repo => !repo.fork)
+    
+    console.log(repos)
+  }catch(err){
+    console.log('Error no try')
+  }
+}
+fetchData()
+
+function abrirMenu(){
     document.getElementById("menuOculto").style.width="250px"
     document.getElementById("principal").style.marginLeft="250px"
   }

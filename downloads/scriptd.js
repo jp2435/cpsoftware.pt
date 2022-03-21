@@ -166,6 +166,7 @@ function criarDivs(){
   const description = document.createElement('p')
 
   h4.innerHTML = 'Prgm teste'
+  h4.setAttribute('class', 'titleprgm')
   image.src='../imagens/prgm/quimica320.png'
   version.innerHTML = 'Versão 1.4'
   description.innerHTML='Programa de desenvolvimento pra testar renderizaçãõ'
